@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Craft</title>
+    <link rel="icon" href="#" />
+    <link rel="stylesheet" href="./assests/css/styles.css" />
+    <link rel="stylesheet" href="./assests/css/ootstrap.min.css" />
+    <link rel="stylesheet" href="./assests/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./assests/css/carousel.min.css">
+    <link rel="stylesheet" href="./assests/css/aos.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
+  </head>
+  <body onload="hidefunction()" >
+    <section class="loding-section">
+      <div id="loding"></div>
+          </section>
+
+    <section class="navbar-main-secvtion">
+      <div
+        class="collapse"
+        id="navbarToggleExternalContent"
+        data-bs-theme="dark"
+      >
+        <div class="bg-dark p-4">
+          <h5 class="text-body-emphasis h4">Duguu Dev</h5>
+          <span class="text-body-secondary"></span>
+          <div class="navbar-nav">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Resume">Resume</a>
+            <a href="#Project'S">Project'S</a>
+            <a href="#Contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="button-input">
+            <input class="bonyoo" type="text" placeholder="Serch" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <h3><a class="logomp" href="#">Duguu dev</a></h3>
+        </div>
+      </nav>
+    </section>
+    <section class="benner-section">
+      <div class="slider-container" id="Home">
+        <!-- particles.js container --> <div id="particles-js"></div> <!-- stats - count particles --> <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+      <button id="prev" class="nav-btn">❮</button>
+      <div class="slider">
+         
+          <div class="slide active">
+              
+              <div class="text1-beener">
+              <h1 class="text-4456">Duguu Dev</h1>
+              <p>My Portfolio </p></div>
+              <div class="flex-box-beneer">
+              <!-- <div class="image-1beener"></div> -->
+            <div class="hello-duguu">
+              <div class="text">
+                  <span class="subheading">Hello!</span>
+                <h1 class="mb-4 mt-3">I'm <span id="duguu-col" data-aos="fade-left" >Durgesh Patidar</span></h1>
+
+                <!-- Element to contain animated typing -->
+                <span id="typing-animation"></span>
+
+                <script>
+
+                // Initialize the typing animation
+                const typingAnimationElement = document.getElementById('typing-animation');
+
+                // Create an array of typing text
+                const typingTexts = [
+                'BCA Student  ',
+                'Web deginer  ',
+                'Web devloper   ',
+                ];
+
+                // Create a function to display the typing animation for a given text
+                function playTypingAnimation(text) {
+                // Loop through each character and add it to the element
+                for (let i = 0; i < text.length; i++) {
+                    setTimeout(() => {
+                    typingAnimationElement.textContent += text[i];
+                    }, i * 200); // Increase the delay to slow down the typing animation
+                }
+
+                // Once the animation is complete, reset the text and start over
+                setTimeout(() => {
+                    typingAnimationElement.textContent = '';
+                    playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                }, text.length * 200);
+                }
+
+                // Start the typing animation loop
+                playTypingAnimation(typingTexts[0]);
+
+                </script>
+
+                <br>
+                <br>
+                <h2 class="text-baner-h2">First Year Student</h2>
+                <!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
+                <!-- <br> -->
+                <p><a href="#" class="btn btn-primary py-3 px-4">GitHub</a> 
+                    <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+            </div>
+            </div>
+              <!-- <button class="shop-btn">Shop Product</button> -->
+          </div></div>
+          <div class="slide" >
+            <div class="TEXT-HJG333">
+            <h3 class="text-bree22">"Hey" I'm Here !</h3>
+            <p class="text-pp22">THE MOST IMPORTANT <br> THING IS TO ENJOY YOUR LIFE <br> TO BE HAPPY ITS ALL THAT MATTERS.</p>
+          </div>
+              <div class="image-banner2">
+                  <img src="./assests/image/WhatsApp_Image_2025-01-09_at_8.14.07_PM-removebg-preview.png" alt="">
+              </div>
+              <!-- <p>Built for Adventure</p> -->
+              <!-- <button class="shop-btn">Explore Now</button> -->
+          </div>
+          <div class="slide" >
+              <h1></h1>
+              <p></p>
+              <button class="shop-btn"></button>
+          </div>
+      </div>
+      <button id="next" class="nav-btn">❯</button>
+  </div>
+    </section>
+    <section class="about-section" >
+      <div class="container-about" id="About">
+          <div class="profile-about">
+              <div class="profile-edit" data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine">  
+                  </div>
+           
+              <ul class="info-list">
+                  <li><strong>Name:</strong><span class="span-45th"> Durgash Patidar</span></li>
+                  <li><strong>Job Role:</strong> <span class="span-45th"> None</span></li>
+                  <li><strong>Experience:</strong> <span class="span-45th">None</span> </li>
+                  <li><strong>Address:</strong> <span class="span-45th"> Indore, India</span></li>
+              </ul>
+          </div>
+          <div class="about-content">
+              <h2>About Me</h2>
+              <p>
+                  Highly skilled in creating visually stunning, user-centric, and responsive web designs. Proficient in HTML, CSS, JavaScript, and design tools like Adobe XD and Figma. Passionate about staying updated on the latest design trends and technologies.
+              </p>
+              <ul class="profile-details">
+                  <li><strong>Profile:</strong> Web Developer</li>
+                  <li><strong>Specialization:</strong> Coding & Editing</li>
+                  <li><strong>Education:</strong> BCA First Year</li>
+                  <li><strong>Languages:</strong> English, Hindi</li>
+                  <li><strong>Software:</strong> Visual Studio, Canva, ChatGPT</li>
+              </ul>
+              <div class="projects">
+                  <span id="projects-completed">0</span> + Projects Completed
+              </div>
+              <button class="linkedin-btn">LinkedIn</button>
+          </div>
+      </div>
+      
+      </div>
+  </section>
+  <section class="education-section" id="Resume">
+    <h1>Education</h1>
+    <div class="education-container">
+        <div class="education-card">
+            <h2>2024-2025</h2>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Devi Ahilya Vishwavidyalaya University, Indore</p>
+            <small>Running First Year</small>
+        </div>
+        <div class="education-card">
+            <h2>2023-2024</h2>
+            <h3>Higher Secondary School</h3>
+            <p>Baraswati Shishu Mandir Karnawad</p>
+            <small>12th Pass</small>
+        </div>
+    </div>
+    <button class="download-btn">Download CV</button>
+</section>
+
+<section class="projects-section" >
+  <div class="text-aline-ro" id="Project'S">
+  <h1>Projects</h1>
+  <p>Below are the sample web designs and clones I have developed using HTML, CSS, JavaScript, and other tools.</p></div>
+  <div class="projects-container" >
+      <div class="project-card" data-link="#">
+          <img src="./assests/image/project-1 (1).jpeg" alt="Project 1">
+          <h3>Diffo - A Website Clone</h3>
+          <p>A clone website created using HTML, CSS, JS, and Bootstrap 4.</p>
+      </div>
+      <div class="project-card" data-link="#">
+          <img src="./assests/image/project-1 (2).jpeg" alt="Project 2">
+          <h3>RatherApp - A Website Clone</h3>
+          <p>Another website clone built with modern web technologies.</p>
+      </div>
+      <div class="project-card" data-link="#">
+          <img src="./assests/image/project-1 (3).jpeg" alt="Project 3">
+          <h3>GRAVITY - A Website Clone</h3>
+          <p>An advanced website layout built for design practice.</p>
+      </div>
+      <div class="project-card" data-link="#">
+          <img src="./assests/image/project-1 (4).jpeg" alt="Project 4">
+          <h3>ZabSports - A Website Clone</h3>
+          <p>A fantasy sports website clone designed and implemented.</p>
+      </div>
+      <div class="project-card" data-link="#">
+          <img src="./assests/image/project-1 (5).jpeg" alt="Project 5">
+          <h3>Nick - A Website Clone</h3>
+          <p>Styled and structured as per modern web standards.</p>
+      </div>
+  </div>
+</section>
+<section id="contact" >
+  
+  <h2 id="Contact" class="contact-h2">Contact Me</h2>
+  <div class="contact-info">
+
+      <div class="info-item">
+          <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+          <h2>Address</h2>
+          <p>Indore, India</p>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>
+          
+          <h2>Contact Number</h2>
+          <p>+ 7024296522</p>
+      </div>
+      <div class="info-item">
+          <i class="fa-regular fa-paper-plane" style="color: #ffffff;"></i>
+          <h2>Email Address</h2>
+          <p>duguuptdr22@gmail.com</p>
+      </div>
+      <div class="info-item">
+          <i class="fa-solid fa-download" style="color: #ffffff;"></i>
+          <h2>Download Resume</h2>
+          <a href="resumeLink">resumeLink</a>
+      </div>
+  </div>
+  <div class="question">
+      <h2>Have a Question?</h2>
+      <button id="question-btn">CLICK HERE</button>
+  </div>
+  <div class="social-media">
+      <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></i></a>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+  </div>
+  <footer>
+      <p>Copyright ©2025 All rights Website ! My Portfolio.</p>
+  </footer>
+</section>
+
+
+<script src="./assests/js/particles.min.js"></script>
+<script src="./assests/js/aos.js"></script>
+    <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>  -->
+    <!-- stats.js lib --> <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="./assests/js/owl.carousel.min.js"></script>
+    <script src="./assests/js/fontawesome.min.js"></script>
+    <script src="./assests/js/bootstrap.min.js"></script>
+    <script src="./assests/js/loader.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+    // Animate projects completed counter
+    const projectCounter = document.getElementById("projects-completed");
+    const targetProjects = 5; // Replace with actual completed projects
+    let currentProjects = 0;
+
+    const incrementProjects = () => {
+        const interval = setInterval(() => {
+            if (currentProjects < targetProjects) {
+                currentProjects++;
+                projectCounter.textContent = currentProjects;
+            } else {
+                clearInterval(interval);
+            }
+        }, 50);
+    };
+
+    incrementProjects();
+
+    // Animate progress bars
+    const progressBars = document.querySelectorAll(".progress-bar");
+    progressBars.forEach(bar => {
+        const percent = bar.getAttribute("data-percent");
+        setTimeout(() => {
+            bar.querySelector("::before").style.width = `${percent}%`;
+        }, 300);
+    });
+});
+
+    </script>
+    <script>
+      var preloader =document.getElementById("loding");
+      function hidefunction(){
+          preloader.style.display="none";
+      }
+  </script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="./assests/js/script.js"></script>
+  </body>
+</html>

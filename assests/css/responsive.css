@@ -1,0 +1,212 @@
+/* Break points */
+
+/* Small phones ' */
+@media (min-width: 300px) and (max-width: 359px) {
+
+}
+
+
+/* mideam phone  */
+@media (min-width: 360px) and (max-width: 479px) {
+
+}
+
+/* Small Tablet  */
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+/* Mideum Tablet  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large Tablet  */
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+/* Small laptops  */
+@media (min-width: 1025px) and (max-width: 1199px) {
+
+}
+
+/* Midium laptops  */
+@media (min-width: 1200px) and (max-width: 1366px) {
+
+}
+
+/* Large Screens */
+@media (min-width: 1367px) and (max-width: 1600px) {
+
+}
+
+/* Extra Large Screens */
+@media (min-width: 1601px) and (max-width:  1920px) {
+
+}
+
+
+/* Min and Max  */
+
+@media (max-width: 599px) {
+    .slide.active {
+        text-align: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .slide {
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.text-4456 {
+        text-align: center;
+    }
+
+    h1.mb-4.mt-3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #duguu-col{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .nav-btn{
+        position: absolute;
+        top: 30%;
+    }
+
+    h3.text-bree22 {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    p.text-pp22 {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .button-input {
+        display: none;
+    }
+
+    section.about-section {
+        /* flex-direction: column-reverse; */
+        padding: 0;
+        /* margin-top: 20px; */
+    }
+
+    
+    .profile-edit {
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+    }
+
+    .about-content h2{
+        font-size: 40px;
+        padding: 15px;
+    }
+
+    .about-content p{
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .profile-details{
+        font-size: 16px;
+    }
+
+    .projects{
+        padding: 20px;
+    }
+
+
+    .linkedin-btn{
+        margin-left: 30px;
+        /* margin-bottom: 30px; */
+        
+    }
+
+    .education-section h1{
+        font-size: 40px;
+    }
+    
+    .education-section h1::after{
+        width: 230px;
+    }
+
+    section.projects-section{
+        padding: 20px;
+        
+    }
+
+    .text-aline-ro{
+        margin: 0;
+        padding: 20px;
+    }
+
+
+
+    .projects-section h1{
+        font-size: 40px;
+    }
+
+    .contact-h2{
+        font-size: 40px;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    svg.svg-inline--fa.fa-location-dot {
+        width: 100px;
+        height: 50px;
+    }
+
+}
+
+@media (min-width: 599px) {
+  
+}
+
+@media (max-width: 767px) {
+    .slide{
+        gap: 0;
+    }
+
+    section.projects-section{
+        padding: 0;
+    }
+
+    .contact-info{
+        flex-direction: column;
+        line-height: 2;
+    }
+}
+
+@media (min-width: 767px) {
+    
+
+
+}
+
+@media (max-width: 991px) {
+  
+    .contact-info{
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 991px) {
+
+}
